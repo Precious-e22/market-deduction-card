@@ -1,0 +1,381 @@
+.page {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f5f5f5;
+  padding: 20px;
+}
+
+.card {
+  width: 737px;
+  height: 443px;
+  background:
+  linear-gradient(
+    180deg,
+    #FAEAB0 0%,
+    #FAEAB0 55%,
+    #F0CB3F 75%,
+    #F8E39A 82%,
+    #FBEAA7 100%
+  );
+  border-radius: 8px;
+  padding: 36px;
+  box-sizing: border-box;
+  position: relative;
+  isolation: isolate;
+}
+
+
+.market-image {
+  width: 182.72px;
+  height: 22.74px;
+  object-fit: contain;
+  position: absolute;
+  left: 36px;
+  top: 63px;
+}
+
+.card-header {
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+.brand {
+  width: 126px;
+  height: 9px;
+  font-family: "Mona Sans", sans-serif;
+  font-size: 7.8px;
+  font-weight: 700;
+  line-height: 119%;
+  letter-spacing: -1%;
+  color: rgba(0, 0, 0, 0.66);
+}
+
+.markets {
+  width: 182.72px;
+  height: 22.74px;
+  margin-top: 18px;
+  color: #121214;
+}
+
+.card-body {
+  margin-top: 120px;
+}
+
+.label {
+  width: 333.15px;
+  height: 24px;
+  margin: 0 auto;
+  font-family: "Mona Sans", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 100%;
+  letter-spacing: -1%;
+  text-align: center;
+  color: rgba(114, 114, 114, 0.89);
+  transform: translate(8px);
+}
+
+.card-body h1 {
+  width: 333.15px;
+  height: 45.79px;
+  margin: 0 auto 22px;
+  font-family: "Mona Sans", sans-serif;
+  font-size: 58px;
+  font-weight: 700;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+  transform: translate(0);
+  color: #656565;
+}
+
+.details {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.details div {
+  display: flex;
+  flex-direction: column;
+}
+
+.details span {
+  font-size: 10px;
+  color: #727272;
+}
+
+.details strong {
+  font-size: 12px;
+  color: #494949;
+}
+
+.odds-stake {
+  width: 162px;
+  height: 30.4px;
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  margin: 0 auto;
+}
+
+.odds {
+  width: 83.82px;
+  height: 26.79px;
+  display: flex;
+  align-items: center;
+  gap: 3.92px;
+}
+
+.odds-icon,
+.stake-icon {
+  width: 9.14px;
+  height: 9.14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #494949;
+  font-size: 9px;
+}
+
+
+.odds-text {
+  width: 70.77px;
+  height: 26.79px;
+  display: flex;
+  flex-direction: column;
+  gap: 0.79px;
+}
+
+.odds-text span {
+  width: 23px;
+  height: 11px;
+  font-family: "Quicksand", sans-serif;
+  font-size: 8.89px;
+  font-weight: 600;
+  line-height: 100%;
+  letter-spacing: 0;
+  color: #524F4B;
+}
+
+.odds-text strong {
+  width: 70.77px;
+  height: 15px;
+  font-family: "Mona Sans", sans-serif;
+  font-size: 14.94px;
+  font-weight: 800;
+  line-height: 100%;
+  letter-spacing: 0;
+  color: #494949;
+}
+
+.stake {
+  width: 58.59px;
+  height: 30.4px;
+  display: flex;
+  align-items: center;
+  gap: 2.61px;
+}
+
+.stake-text {
+  width: 46.84px;
+  height: 30.4px;
+  display: flex;
+  flex-direction: column;
+}
+
+.stake-text span {
+  width: 24px;
+  height: 13px;
+  font-family: "Mona Sans", sans-serif;
+  font-size: 8.89px;
+  font-weight: 500;
+  line-height: 100%;
+  letter-spacing: 0;
+  color: #3E3C38;
+}
+
+.stake-text strong {
+  width: 46.84px;
+  height: 21px;
+  font-family: "Mona Sans", sans-serif;
+  font-size: 15.04px;
+  font-weight: 800;
+  line-height: 100%;
+  letter-spacing: 0;
+  color: #494949;
+}
+
+.question-box {
+  width: 195px;
+  height: 42px;
+  margin: 7px auto 0;
+  padding: 7px 10px 3px 12px;
+  box-sizing: border-box;
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.41);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.question-box p {
+  width: 100%;
+  height: auto;
+  margin: 0;
+  font-family: "Mona Sans", sans-serif;
+  font-size: 8px;
+  font-weight: 700;
+  line-height: 117%;
+  letter-spacing: 0;
+  text-align: center;
+  color: #6B6B6B;
+  white-space: normal;
+  overflow-wrap: normal;
+
+}
+.question-box p span {
+  display: block;
+  width: 100%;
+  white-space: nowrap;
+  text-align: center;
+}
+
+.qr-code {
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
+  position: absolute;
+  left: 40px;
+  bottom: 36px;
+}
+
+.profile-pic {
+  width: 18px;
+  height: 18px;
+  object-fit: contain;
+  position: absolute;
+  left: 125px;
+  bottom: 42px;
+}
+
+.card {
+  width: 737px;
+  height: 443px;
+ background:
+  linear-gradient(
+    180deg,
+    #F8E7A0 0%,
+    #F8E7A0 55%,
+    #F4D979 75%,
+    #F8E39A 82%,
+    #FBEAA7 100%
+  );
+  border-radius: 8px;
+  padding: 36px;
+  box-sizing: border-box;
+  position: relative;
+  overflow: hidden;
+}
+
+
+.shine-button {
+  position: absolute;
+  bottom: 40px;
+  right: 55px;
+  width: 120px;
+  transform: translate(8px);
+}
+
+.arrow {
+  position: relative;
+  top: 8px;
+  width: 10px;
+  height: 10px;
+}
+
+.stake-arrow {
+  width: 9.5px;
+  height: 9.5px;
+  transform: translateY(7.5px);
+}
+
+
+.delivery-info {
+  position: absolute;
+  left: 147px;
+  bottom: 41px;
+}
+
+.delivery-text {
+  font-family: "Mona Sans", sans-serif;
+  font-size: 8px;
+  font-weight: 600;
+  line-height: 100%;
+  color: #464242;
+}
+
+
+
+.date-info {
+  position: absolute;
+  left: 220px;
+  bottom: 45px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+}
+
+.date-info span {
+  font-family: "Mona Sans", sans-serif;
+  font-size: 4.65px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 100%;
+  letter-spacing: -1%;
+  text-transform: uppercase;
+  color: #010609;
+  opacity: 0.64;
+}
+
+.date-info strong {
+  font-family: "Mona Sans", sans-serif;
+  font-size: 4.65px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 119%;
+  letter-spacing: -1%;
+  text-transform: capitalize;
+  color: #010609;
+  opacity: 0.64;
+}
+
+
+
+.card-rectangle {
+  position: absolute;
+  width: 664px;
+  height: 285px;
+  top: 116px;
+  left: 36px;
+  object-fit: contain;
+  z-index: -1;
+}
+
+
+.star {
+  position: absolute;
+  top: 70px;
+  right: 36px;
+  width: 120px;
+  height: 120px;
+  object-fit: contain;
+}
+
+
