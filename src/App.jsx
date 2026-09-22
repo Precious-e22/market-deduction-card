@@ -5,7 +5,7 @@ import qrCode from "./assets/Frame 2147225932 (1).svg";
 import button from "./assets/Button.svg";
 import arrow from "./assets/arrow.svg";
 import profilePic from "./assets/profile.svg";
-import rectangle from "./assets/Rectangle.svg";
+import rectangle from "./assets/rectangle.svg";
 function App() {
   return (
     <div className="page">
