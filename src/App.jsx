@@ -6,10 +6,14 @@ import button from "./assets/Button.svg";
 import arrow from "./assets/arrow.svg";
 import profilePic from "./assets/profile.svg";
 import rectangle from "./assets/rectangle.svg";
+import cloudBase from "./assets/cloud base.svg";
+import moon from "./assets/moon.svg";
 function App() {
   return (
     <div className="page">
       <div className="card">
+        <img className="moon" src={moon} alt="" />
+        <img className="cloud-base" src={cloudBase} alt="" />
         <img className="card-rectangle" src={rectangle} alt="" />
         <div className="card-header">
           <span className="brand">Trade. Predict. Win. All on Market</span>

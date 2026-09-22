@@ -10,12 +10,12 @@
 .card {
   width: 737px;
   height: 443px;
-  background:
+ background:
   linear-gradient(
     180deg,
-    #FAEAB0 0%,
-    #FAEAB0 55%,
-    #F0CB3F 75%,
+    #FCEFC2 0%,
+    #FCEFC2 55%,
+    #F2D45A 75%,
     #F8E39A 82%,
     #FBEAA7 100%
   );
@@ -32,7 +32,7 @@
   height: 22.74px;
   object-fit: contain;
   position: absolute;
-  left: 36px;
+  left: 28px;
   top: 63px;
 }
 
@@ -247,12 +247,12 @@
 }
 
 .qr-code {
-  width: 80px;
-  height: 80px;
+  width: 100px;
+  height: 100px;
   object-fit: contain;
   position: absolute;
-  left: 40px;
-  bottom: 36px;
+  left: 50px;
+  bottom: 40px;
 }
 
 .profile-pic {
@@ -260,7 +260,7 @@
   height: 18px;
   object-fit: contain;
   position: absolute;
-  left: 125px;
+  left: 160px;
   bottom: 42px;
 }
 
@@ -308,7 +308,7 @@
 
 .delivery-info {
   position: absolute;
-  left: 147px;
+  left: 180px;
   bottom: 41px;
 }
 
@@ -324,7 +324,7 @@
 
 .date-info {
   position: absolute;
-  left: 220px;
+  left: 260px;
   bottom: 45px;
   display: flex;
   flex-direction: column;
@@ -371,11 +371,25 @@
 
 .star {
   position: absolute;
-  top: 70px;
+  top: 50px;
   right: 36px;
-  width: 120px;
-  height: 120px;
+  width: 150px;
+  height: 150px;
   object-fit: contain;
 }
 
 
+.cloud-base {
+  position: absolute;
+  bottom: 0;
+  left: 52%;
+  transform: translateX(-50%);
+  z-index: -2;
+}
+
+.moon {
+  position: absolute;
+  left: 0;
+  bottom: -20px;
+  z-index: -3;
+}
